@@ -1,3 +1,5 @@
 --class-path src
---main Main
---interp
+--class-path sample
+--macro horsescript.generator.BSGenerator.register()
+--no-output
+rokuapp.App
